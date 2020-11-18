@@ -10,9 +10,3 @@ jobs:
     steps:
       - name: GitHub Action for Python code check
         uses: nanato12/pycheck@master
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          checkName: 'pycheck'   # NOTE: this needs to be the same as the job name
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
