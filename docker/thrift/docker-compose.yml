@@ -1,0 +1,11 @@
+version: '3'
+services:
+  thrift:
+    hostname: 'thrift'
+    restart: always
+    build: .
+    container_name: 'thrift'
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - ./workspace:/workspace
