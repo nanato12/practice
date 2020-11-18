@@ -1,0 +1,11 @@
+version: '3'
+services:
+  python3:
+    hostname: 'python3-10'
+    restart: always
+    build: .
+    container_name: 'python3-10'
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - ./workspace:/workspace
