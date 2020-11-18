@@ -1,11 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Lint
+name: Pycheck
 
-on:
-  push:
-    paths:
-      - '*.py'
+on: [push]
 
 jobs:
   pycheck:
