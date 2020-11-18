@@ -11,4 +11,4 @@ jobs:
       - name: GitHub Action for Python code check
         uses: nanato12/pycheck@master
         with:
-          args: flake8 . --show-source --statistics & PID1=$! && black --check . & PID2=$! && wait $PID1 && wait $PID2
+          args: flake8 . --show-source --statistics & PID1=$! && black --check . & PID2=$! && wait $PID1 && wait $PID2 && ls -a
