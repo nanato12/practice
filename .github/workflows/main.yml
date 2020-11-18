@@ -11,4 +11,4 @@ jobs:
       - name: GitHub Action for Python code check
         uses: nanato12/pycheck@master
         with:
-          path: '.'
+          path: './python/workspace'
