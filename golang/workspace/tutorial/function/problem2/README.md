@@ -18,12 +18,12 @@ func main() {
 
 | a | b | c | a && b | !c | a && b \|\| !c |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span>
-| <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span>
-| <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span>
-| <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span>
-| <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span>
-| <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span> | <span style="color: red; ">false</span>
-| <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span>
-| <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: cyan; ">true</span> | <span style="color: red; ">false</span> | <span style="color: cyan; ">true</span>
+| false | false | false | false | true | true
+| false | false | true | false | false | false
+| false | true | false | false | true | true
+| false | true | true | false | false | false
+| true | false | false | false | true | true
+| true | false | true | false | false | false
+| true | true | false | true | true | true
+| true | true | true | true | false | true
 
