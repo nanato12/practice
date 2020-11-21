@@ -5,3 +5,6 @@
 
 ## 変数
 - [variable](./variable)
+
+## 定数
+- [constant](./constant)
