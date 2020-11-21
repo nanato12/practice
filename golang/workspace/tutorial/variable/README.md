@@ -37,8 +37,8 @@ var (
 | 真偽値 | bool |
 | エラー | error |
 
-uintptr: ポインタの加算、減算するときに使う
-byte: int8と同義
+uintptr: ポインタの加算、減算するときに使う  
+byte: int8と同義  
 rune: unicodeの1コードポイント
 
 ## 変数のゼロ値
