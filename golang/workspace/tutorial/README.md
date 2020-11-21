@@ -11,3 +11,6 @@
 
 ## 演算子
 - [operators](./operators)
+
+## 制御構文
+- [Control syntax](./controlSyntax)
