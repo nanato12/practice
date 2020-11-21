@@ -13,6 +13,9 @@ jobs:
         uses: nanato12/pychecker@master
         with:
           path: './python/workspace'
+  gocheck:
+    runs-on: ubuntu-latest
+    steps:
       - name: GitHub Action for golang code check
         uses: nanato12/gocheck@master
         with:
