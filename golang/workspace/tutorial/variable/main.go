@@ -11,4 +11,13 @@ func main() {
 		sum += i
 	}
 	fmt.Println(sum)
+
+	n = 0x64
+	fmt.Println(n)
+
+	n = 0b0010
+	fmt.Println(n)
+
+	n = 5_000_000_000
+	fmt.Println(n)
 }
