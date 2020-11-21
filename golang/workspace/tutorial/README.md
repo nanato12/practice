@@ -14,3 +14,9 @@
 
 ## 制御構文
 - [Control syntax](./controlSyntax)
+
+## リテラル
+- [Literal](./literal)
+
+## 練習問題
+- [problem](./problem)
