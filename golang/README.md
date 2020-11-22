@@ -1,4 +1,4 @@
-# golang
+# Go
 
 ## docker
 ```bash

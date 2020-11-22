@@ -1,5 +1,8 @@
 # チュートリアル
 
+ここ参考に進めていきます。  
+https://gopherdojo.org/studyroom/
+
 ## hello, world
 - [hello world](./hello)
 
