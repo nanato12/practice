@@ -1,0 +1,9 @@
+version: '3'
+services:
+  clang_practice:
+    hostname: clang
+    container_name: clang_practice
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    tty: true
