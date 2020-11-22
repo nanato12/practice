@@ -1,5 +1,20 @@
 # golang
 
+## docker
+```bash
+$ docker-compose build
+$ docker-compose up -d
+```
+
+## exec
+```
+$ docker exec -it golang_practice bash
+
+/go/src/workspace # cd tutorial/hello
+/go/src/workspace/tutorial/hello # go run hello.go
+Hello, world!
+```
+
 ## tutorial
 - [tutorial](./workspace/tutorial)
 
