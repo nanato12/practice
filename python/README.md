@@ -16,7 +16,7 @@ Hello, world!
 ```
 
 ## チュートリアル
-- [tutorial](./worksoace/tutorial)
+- [tutorial](./workspace/tutorial)
 
 ## 無料プロキシ取得
 - [get-proxies](./workspace/get-proxies)
