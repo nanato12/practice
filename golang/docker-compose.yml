@@ -1,8 +1,8 @@
 version: '3'
 services:
-  go:
+  golang_practice:
     hostname: golang1-15
-    container_name: golang
+    container_name: golang_practice
     build: .
     volumes:
       - ./workspace:/go/src/workspace
