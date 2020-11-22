@@ -1,10 +1,9 @@
 version: '3'
 services:
-  rust:
-    restart: always
+  rust_practice:
+    hostname: rust1-47-0
+    container_name: rust_practice
     build: .
-    container_name: 'rust1.47.0'
-    working_dir: '/home/nanato12/workspace'
-    tty: true
     volumes:
-      - ./workspace:/home/nanato12/workspace
+      - ./workspace:/workspace
+    tty: true
