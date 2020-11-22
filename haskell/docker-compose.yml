@@ -1,0 +1,9 @@
+version: '3'
+services:
+  haskell_practice:
+    hostname: haskell
+    container_name: haskell_practice
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    tty: true

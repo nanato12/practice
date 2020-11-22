@@ -15,3 +15,6 @@
 
 ## Rust
 - [rust](./rust)
+
+## Haskell
+- [haskell](./haskell)
