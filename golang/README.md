@@ -8,14 +8,14 @@ $ docker-compose up -d
 
 ## exec
 ```
-$ docker exec -it golang_practice bash
+$ docker exec -it golang_practice sh
 
 /go/src/workspace # cd tutorial/hello
 /go/src/workspace/tutorial/hello # go run hello.go
 Hello, world!
 ```
 
-## tutorial
+## チュートリアル
 - [tutorial](./workspace/tutorial)
 
 ## dotenv
