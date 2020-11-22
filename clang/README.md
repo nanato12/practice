@@ -10,11 +10,14 @@ $ docker-compose up -d
 ```
 $ docker exec -it clang_practice sh
 
-/workspace # cd ascii
-/workspace/ascii # gcc main.c -o ascii.out
-/workspace/ascii # ./ascii.out
-............
+/workspace # cd tutorial/hello/
+/workspace/tutorial/hello # gcc main.c -o hello.out
+/workspace/tutorial/hello # ./hello.out
+Hello, world!
 ```
+
+## チュートリアル
+- [tutorial](./workspace/tutorial)
 
 ## ASCIIコード表
 - [ascii](./workspace/ascii)
