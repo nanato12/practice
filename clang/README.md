@@ -16,5 +16,5 @@ $ docker exec -it clang_practice sh
 ............
 ```
 
-## アスキーコード表
+## ASCIIコード表
 - [ascii](./workspace/ascii)
