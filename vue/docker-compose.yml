@@ -1,0 +1,12 @@
+version: '3'
+services:
+  vue_practice:
+    hostname: node15
+    build: .
+    container_name: vue_practice
+    ports:
+      - 8080:8080
+    volumes:
+      - ./workspace:/workspace
+    working_dir: /workspace
+    tty: true
