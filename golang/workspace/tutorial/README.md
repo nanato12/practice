@@ -21,5 +21,8 @@ https://gopherdojo.org/studyroom/
 ## リテラル
 - [Literal](./literal)
 
+## 関数
+- [function](./function)
+
 ## 練習問題
 - [problem](./problem)
