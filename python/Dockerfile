@@ -7,5 +7,7 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install flake8
 RUN pip install black
+RUN pip install mypy
+RUN pip install isort
 
 WORKDIR /workspace
