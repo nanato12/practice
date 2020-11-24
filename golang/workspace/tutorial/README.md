@@ -24,5 +24,8 @@ https://gopherdojo.org/studyroom/
 ## 関数
 - [function](./function)
 
+## メソッド
+- [method](./method)
+
 ## 練習問題
 - [problem](./problem)
