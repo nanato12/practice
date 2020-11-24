@@ -20,7 +20,6 @@ $ docker exec -it vue_practice sh
 
 
 ⠋  Building for production...
-/workspace/practice # cp -f docs ../
 ```
 
 ## run
