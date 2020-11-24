@@ -27,5 +27,8 @@ https://gopherdojo.org/studyroom/
 ## メソッド
 - [method](./method)
 
+## パッケージ
+- [package](./package)
+
 ## 練習問題
 - [problem](./problem)
