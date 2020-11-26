@@ -22,6 +22,6 @@ str[x]=49
 
 **解決**
 char型の認識間違い  
-charに入れられるのは「-128~127」の整数  
-C言語では、0~127の文字列として扱える  
+charに入れられるのは「-128\~127」の整数  
+C言語では、0\~127の文字列として扱える  
 https://www.k-cube.co.jp/wakaba/server/ascii_code.html
