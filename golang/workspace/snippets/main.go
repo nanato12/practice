@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 const iota = 0
 
@@ -21,4 +24,11 @@ func main() {
 	fmt.Println(n + "sakura")
 
 	fmt.Println(a, b, c)
+
+	PostID := "051a72fc"
+	if postId, err := strconv.ParseInt(PostID, 16, 0); err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(postId)
+	}
 }
