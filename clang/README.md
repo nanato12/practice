@@ -21,3 +21,6 @@ Hello, world!
 
 ## ASCIIコード表
 - [ascii](./workspace/ascii)
+
+## メモ的存在
+- [snippets](./workspace/snippets)
