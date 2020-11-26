@@ -1,0 +1,9 @@
+version: '3'
+services:
+  js_practice:
+    hostname: js
+    container_name: js_practice
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    tty: true

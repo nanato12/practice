@@ -19,5 +19,8 @@
 ## Haskell
 - [haskell](./haskell)
 
+## JavaScript
+- [js](./js)
+
 ## Vue
 - [vue](./vue)
