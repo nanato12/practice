@@ -20,3 +20,6 @@ Hello, world!
 
 ## 無料プロキシ取得
 - [get-proxies](./workspace/get-proxies)
+
+## ランダム文字列
+- [random_string](./workspace/random_string)
