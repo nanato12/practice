@@ -47,5 +47,5 @@ $ docker exec -it vue_practice sh
 ```
 /workspace/practice # npm run build
 /workspace/practice # exit
-$ cp -r dist ../../../docs
+$ cp -r workspace/github-page/dist/ ../docs/
 ```
