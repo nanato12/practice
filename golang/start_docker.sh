@@ -1,5 +1,5 @@
 #! /bin/bash
 
-docker-compose build
-docker-compose up -d
-docker exec -it golang_practice sh
+docker build . -t golang
+docker run -itd --name go-practice -p 8000:3000 -v $PWD/workspace:/go/src/workspace golang
+docker exec -it go-practice /bin/sh
